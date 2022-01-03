@@ -1,6 +1,6 @@
 package exercises;
 
-import java.util.Scanner
+import java.util.Scanner;
 
 public class Area {
     public static void main(String[] args){

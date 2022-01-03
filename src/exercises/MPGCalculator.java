@@ -1,6 +1,6 @@
 package exercises;
 
-import java.util.Scanner
+import java.util.Scanner;
 
 public class MPGCalculator {
     public static void main(String[] args){

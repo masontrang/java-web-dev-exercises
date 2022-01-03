@@ -21,7 +21,7 @@ public class Alice {
 
         Integer index = lowercasedText.indexOf(search);
         Integer length = search.length();
-        System.out.println("The search term is at the " + index + "index of the sentence; it's length is " + length + " characters")
+        System.out.println("The search term is at the " + index + "index of the sentence; it's length is " + length + " characters");
         String moddedString = lowercasedText.replace(search, "" );
         System.out.println(moddedString);
     }
