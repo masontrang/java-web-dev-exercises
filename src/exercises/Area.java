@@ -6,7 +6,6 @@ public class Area {
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
         System.out.println("What is the length?");
         double length = input.nextDouble();
 
