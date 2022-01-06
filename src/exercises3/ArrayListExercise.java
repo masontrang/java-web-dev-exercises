@@ -1,5 +1,6 @@
 package exercises3;
 import java.sql.SQLOutput;
+import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -24,7 +25,11 @@ public class ArrayListExercise {
         }
         System.out.println("Sum of integers: " + sum);
 
-
+//        ArrayList<String> words = new ArrayList<>(
+//                Arrays.aslist("word",
+//                        "word2",
+//                        "word3")
+//        );
 
         ArrayList<String> words = new ArrayList<>();
         words.add("hello");
