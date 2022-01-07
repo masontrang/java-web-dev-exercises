@@ -18,7 +18,7 @@ public class ArrayListExercise {
         integers.add(8);
         integers.add(9);
         integers.add(10);
-        int sum = 0;
+        Integer sum = 0;
 
         for (int i =0; i < integers.size(); i++) {
             sum += integers.get(i);
