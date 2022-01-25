@@ -39,17 +39,18 @@ public class Course {
 
     // TODO: Add your custom 'equals' method here. Consider which fields should match in order to call two
     //  Course objects equal.
-    public boolean equals(Course toBeCompared){
-        if (toBeCompared == this){
-            return true;
-        }
-        if (toBeCompared == null){
-            return false;
-        }
-        if (toBeCompared.getClass() != getClass()){
-            return false;
-        }
-        Course theCourse = (Course) toBeCompared;
-        return theCourse.instructor == topic && theCourse.topic == topic;
+    public void equals(Course toBeCompared){
+//        if (toBeCompared == this){
+//            return true;
+//        }
+//        if (toBeCompared == null){
+//            return false;
+//        }
+//        if (toBeCompared.getClass() != getClass()){
+//            return false;
+//        }
+//        Course theCourse = (Course) toBeCompared;
+//        return theCourse.instructor == topic && theCourse.topic == topic;
+
     }
 }
