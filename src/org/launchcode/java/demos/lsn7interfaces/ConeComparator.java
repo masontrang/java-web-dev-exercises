@@ -8,7 +8,7 @@ public class ConeComparator implements Comparator<Cone> {
         if (o1.getCost() < o2.getCost()) {
             return -1;
         } else if (o1.getCost() > o2.getCost()) {
-            return -1;
+            return 1;
         } else{
             return 0;
         }
